@@ -1,0 +1,1 @@
+README -  QRencodeMac  - June 2, 2011This project creates a libQRencode.a which is designed to be compatible with iOS devices.The png.h and pngconf.h files are copied, as a convenience, from the libpng144 project. They should be removed from this project and you should modify your project to find them in whatever is your legal libpng project's source. 

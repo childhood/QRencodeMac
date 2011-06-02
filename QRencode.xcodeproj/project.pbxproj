@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2E945C139812FA00407B9B /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2E945B139812FA00407B9B /* pngconf.h */; };
+		7E2E945E1398148D00407B9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2E945D1398148D00407B9B /* UIKit.framework */; };
+		7EE204D51285128500955CC1 /* qrenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE204D41285128500955CC1 /* qrenc.h */; };
+		7EE208141285D3CD00955CC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE208131285D3CD00955CC1 /* Foundation.framework */; };
+		7EF096BC1284C6CF008EEB65 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096AC1284C6CF008EEB65 /* bitstream.c */; };
+		7EF096BD1284C6CF008EEB65 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096AD1284C6CF008EEB65 /* bitstream.h */; };
+		7EF096BE1284C6CF008EEB65 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096AE1284C6CF008EEB65 /* mask.c */; };
+		7EF096BF1284C6CF008EEB65 /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096AF1284C6CF008EEB65 /* mask.h */; };
+		7EF096C01284C6CF008EEB65 /* qrenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096B01284C6CF008EEB65 /* qrenc.c */; };
+		7EF096C11284C6CF008EEB65 /* qrencode_inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096B11284C6CF008EEB65 /* qrencode_inner.h */; };
+		7EF096C21284C6CF008EEB65 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096B21284C6CF008EEB65 /* qrencode.c */; };
+		7EF096C31284C6CF008EEB65 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096B31284C6CF008EEB65 /* qrencode.h */; };
+		7EF096C41284C6CF008EEB65 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096B41284C6CF008EEB65 /* qrinput.c */; };
+		7EF096C51284C6CF008EEB65 /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096B51284C6CF008EEB65 /* qrinput.h */; };
+		7EF096C61284C6CF008EEB65 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096B61284C6CF008EEB65 /* qrspec.c */; };
+		7EF096C71284C6CF008EEB65 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096B71284C6CF008EEB65 /* qrspec.h */; };
+		7EF096C81284C6CF008EEB65 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096B81284C6CF008EEB65 /* rscode.c */; };
+		7EF096C91284C6CF008EEB65 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096B91284C6CF008EEB65 /* rscode.h */; };
+		7EF096CA1284C6CF008EEB65 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF096BA1284C6CF008EEB65 /* split.c */; };
+		7EF096CB1284C6CF008EEB65 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096BB1284C6CF008EEB65 /* split.h */; };
+		7EF096CF1284C80F008EEB65 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF096CE1284C80F008EEB65 /* config.h */; };
+		7EF097591284F81E008EEB65 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF097571284F81E008EEB65 /* png.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E2E945B139812FA00407B9B /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		7E2E945D1398148D00407B9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E69479D1384A35A005D8B07 /* QRencode_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRencode_Prefix.pch; sourceTree = "<group>"; };
+		7E6947AD1384A424005D8B07 /* QRencodeMAC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRencodeMAC-Prefix.pch"; sourceTree = "<group>"; };
+		7EE204D41285128500955CC1 /* qrenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrenc.h; path = src/qrenc.h; sourceTree = "<group>"; };
+		7EE208131285D3CD00955CC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EF096AC1284C6CF008EEB65 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitstream.c; path = src/bitstream.c; sourceTree = "<group>"; };
+		7EF096AD1284C6CF008EEB65 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitstream.h; path = src/bitstream.h; sourceTree = "<group>"; };
+		7EF096AE1284C6CF008EEB65 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mask.c; path = src/mask.c; sourceTree = "<group>"; };
+		7EF096AF1284C6CF008EEB65 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mask.h; path = src/mask.h; sourceTree = "<group>"; };
+		7EF096B01284C6CF008EEB65 /* qrenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrenc.c; path = src/qrenc.c; sourceTree = "<group>"; };
+		7EF096B11284C6CF008EEB65 /* qrencode_inner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrencode_inner.h; path = src/qrencode_inner.h; sourceTree = "<group>"; };
+		7EF096B21284C6CF008EEB65 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrencode.c; path = src/qrencode.c; sourceTree = "<group>"; };
+		7EF096B31284C6CF008EEB65 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrencode.h; path = src/qrencode.h; sourceTree = "<group>"; };
+		7EF096B41284C6CF008EEB65 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrinput.c; path = src/qrinput.c; sourceTree = "<group>"; };
+		7EF096B51284C6CF008EEB65 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrinput.h; path = src/qrinput.h; sourceTree = "<group>"; };
+		7EF096B61284C6CF008EEB65 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qrspec.c; path = src/qrspec.c; sourceTree = "<group>"; };
+		7EF096B71284C6CF008EEB65 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrspec.h; path = src/qrspec.h; sourceTree = "<group>"; };
+		7EF096B81284C6CF008EEB65 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rscode.c; path = src/rscode.c; sourceTree = "<group>"; };
+		7EF096B91284C6CF008EEB65 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rscode.h; path = src/rscode.h; sourceTree = "<group>"; };
+		7EF096BA1284C6CF008EEB65 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = split.c; path = src/split.c; sourceTree = "<group>"; };
+		7EF096BB1284C6CF008EEB65 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = split.h; path = src/split.h; sourceTree = "<group>"; };
+		7EF096CE1284C80F008EEB65 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
+		7EF097571284F81E008EEB65 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libQRencode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQRencode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2E945E1398148D00407B9B /* UIKit.framework in Frameworks */,
+				7EE208141285D3CD00955CC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libQRencode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* QRencode */ = {
+			isa = PBXGroup;
+			children = (
+				7EF097561284F7FC008EEB65 /* libpng includes */,
+				08FB77AEFE84172EC02AAC07 /* Source */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				7E7EA61F13787A86006A4DB5 /* QRencodeMACOS */,
+				7E6947AB1384A424005D8B07 /* QRencodeMAC */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = QRencode;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E2E945D1398148D00407B9B /* UIKit.framework */,
+				7E587CFA13785EBB0080D0E5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7EE204D41285128500955CC1 /* qrenc.h */,
+				7EF096B01284C6CF008EEB65 /* qrenc.c */,
+				7EF096CE1284C80F008EEB65 /* config.h */,
+				7EF096AC1284C6CF008EEB65 /* bitstream.c */,
+				7EF096AD1284C6CF008EEB65 /* bitstream.h */,
+				7EF096AE1284C6CF008EEB65 /* mask.c */,
+				7EF096AF1284C6CF008EEB65 /* mask.h */,
+				7EF096B11284C6CF008EEB65 /* qrencode_inner.h */,
+				7EF096B31284C6CF008EEB65 /* qrencode.h */,
+				7EF096B21284C6CF008EEB65 /* qrencode.c */,
+				7EF096B41284C6CF008EEB65 /* qrinput.c */,
+				7EF096B51284C6CF008EEB65 /* qrinput.h */,
+				7EF096B61284C6CF008EEB65 /* qrspec.c */,
+				7EF096B71284C6CF008EEB65 /* qrspec.h */,
+				7EF096B81284C6CF008EEB65 /* rscode.c */,
+				7EF096B91284C6CF008EEB65 /* rscode.h */,
+				7EF096BA1284C6CF008EEB65 /* split.c */,
+				7EF096BB1284C6CF008EEB65 /* split.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7E587CFA13785EBB0080D0E5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE208131285D3CD00955CC1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7E6947AB1384A424005D8B07 /* QRencodeMAC */ = {
+			isa = PBXGroup;
+			children = (
+				7E6947AC1384A424005D8B07 /* Supporting Files */,
+			);
+			path = QRencodeMAC;
+			sourceTree = "<group>";
+		};
+		7E6947AC1384A424005D8B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6947AD1384A424005D8B07 /* QRencodeMAC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E7EA61F13787A86006A4DB5 /* QRencodeMACOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E7EA62013787A86006A4DB5 /* Supporting Files */,
+			);
+			path = QRencodeMACOS;
+			sourceTree = "<group>";
+		};
+		7E7EA62013787A86006A4DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E69479D1384A35A005D8B07 /* QRencode_Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF097561284F7FC008EEB65 /* libpng includes */ = {
+			isa = PBXGroup;
+			children = (
+				7EF097571284F81E008EEB65 /* png.h */,
+				7E2E945B139812FA00407B9B /* pngconf.h */,
+			);
+			name = "libpng includes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF097591284F81E008EEB65 /* png.h in Headers */,
+				7E2E945C139812FA00407B9B /* pngconf.h in Headers */,
+				7EE204D51285128500955CC1 /* qrenc.h in Headers */,
+				7EF096BD1284C6CF008EEB65 /* bitstream.h in Headers */,
+				7EF096BF1284C6CF008EEB65 /* mask.h in Headers */,
+				7EF096C11284C6CF008EEB65 /* qrencode_inner.h in Headers */,
+				7EF096C31284C6CF008EEB65 /* qrencode.h in Headers */,
+				7EF096C51284C6CF008EEB65 /* qrinput.h in Headers */,
+				7EF096C71284C6CF008EEB65 /* qrspec.h in Headers */,
+				7EF096C91284C6CF008EEB65 /* rscode.h in Headers */,
+				7EF096CB1284C6CF008EEB65 /* split.h in Headers */,
+				7EF096CF1284C80F008EEB65 /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* QRencodeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "QRencodeIOS" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRencodeIOS;
+			productName = QRencode;
+			productReference = D2AAC07E0554694100DB518D /* libQRencode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "QRencode" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* QRencode */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* QRencodeIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF096C01284C6CF008EEB65 /* qrenc.c in Sources */,
+				7EF096BC1284C6CF008EEB65 /* bitstream.c in Sources */,
+				7EF096BE1284C6CF008EEB65 /* mask.c in Sources */,
+				7EF096C21284C6CF008EEB65 /* qrencode.c in Sources */,
+				7EF096C41284C6CF008EEB65 /* qrinput.c in Sources */,
+				7EF096C61284C6CF008EEB65 /* qrspec.c in Sources */,
+				7EF096C81284C6CF008EEB65 /* rscode.c in Sources */,
+				7EF096CA1284C6CF008EEB65 /* split.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/QRencode.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QRencode_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ImageMagick\"",
+					"\"$(SRCROOT)/../ImageMagick\"",
+					"\"$(SRCROOT)/../lpng144/projects/xcode/build/Debug/iphonesimulator\"",
+					"\"$(SRCROOT)/../lpng144/projects/xcode/build/Debug/iphoneos\"",
+					"\"$(SRCROOT)/../InTheBox/LIBs/libpng_SIM_DEBUG\"",
+				);
+				PRODUCT_NAME = QRencode;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DSTROOT = /tmp/QRencode.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QRencode_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../lpng144/projects/xcode/build/Debug/iphonesimulator\"",
+					"\"$(SRCROOT)/../InTheBox/LIBs/libpng_SIM_DEBUG\"",
+				);
+				PRODUCT_NAME = QRencode;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../lpng144;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../lpng144;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "QRencodeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "QRencode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
